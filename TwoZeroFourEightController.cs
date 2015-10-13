@@ -37,8 +37,9 @@ namespace twozerofoureight
                         m.PerformDown();
                         break;
                 }
-
+                
             }
+            TwoZeroFourEightView.score += 2;
         }
     }
 }
