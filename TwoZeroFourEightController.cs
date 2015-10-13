@@ -39,7 +39,6 @@ namespace twozerofoureight
                 }
                 
             }
-            TwoZeroFourEightView.score += 2;
         }
     }
 }
