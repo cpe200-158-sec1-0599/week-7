@@ -18,7 +18,11 @@ namespace twozerofoureight
         {
             InitializeComponent();
             model = new TwoZeroFourEightModel();
+            TwoZeroFourEightScoreView sc = new TwoZeroFourEightScoreView();
+            sc.Visible = true;
+            sc.Enabled = true;
             model.AttachObserver(this);
+            model.AttachObserver(sc);
             controller = new TwoZeroFourEightController();
             controller.AddModel(model);
             controller.ActionPerformed(TwoZeroFourEightController.LEFT);

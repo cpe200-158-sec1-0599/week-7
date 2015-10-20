@@ -19,6 +19,7 @@ namespace twozerofoureight
         {
             foreach (View m in oList)
             {
+                
                 m.Notify(this);
             }
         }
